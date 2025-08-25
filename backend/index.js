@@ -23,3 +23,5 @@ app.use("/tasks", router);
 app.listen(PORT, () => {
     console.log(`Backend listening on Port ${PORT}!`);
 });
+
+module.exports = app
